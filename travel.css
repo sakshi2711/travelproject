@@ -1,0 +1,378 @@
+html{
+	zoom:75%;
+}
+body{
+	background-color: #dcdcdc;
+	margin-top: 0px;
+	font-family: 'roboto', sans-serif;
+
+}
+#colour{
+	margin:auto;
+	width: 1366px;
+	background-color: white;
+}
+
+
+.first{
+	background-image: url("images/travel.jpg");
+	margin: auto;
+	width: 1366px;
+	height: 768px;
+	margin-bottom: 0px;
+	transition: 1s ease-in-out;
+
+}
+/* .first:hover{
+
+	background-size: 120%;
+}  */
+
+
+.first li{
+	display: inline;
+	margin:15px;
+
+
+}
+.first ul{
+	margin:auto;
+	width:1000px;
+	margin-bottom: 30px;
+	padding-top: 40px;
+}
+.first a{
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	font-size: 16px;
+
+}
+.first ul a:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.text{
+	color: white;
+    text-align: center;
+}
+.text h1{
+	text-shadow: 2px 2px 5px white;
+	font-size: 50px;
+}
+button{
+	background-color: #29abe2;
+	border-radius: 25px;
+	padding: 5px;
+	height: 40px;
+	width: 180px;
+	clear:both;
+}
+#button{
+	font-size: 20px;
+}
+button:hover{
+	background-color: black;
+}
+hr{
+	width: 1000px;
+	margin:auto;
+	margin-top: 40px;
+	margin-bottom: 0px;
+	border-width: 2px;
+
+}
+.first li:nth-child(6) {
+    margin-right: 230px;
+}
+
+.second{
+	width: 1366px;
+	margin:auto;
+	font-size: 20px;
+	background-color: white;
+
+}
+.second p{
+	line-height: 30px;
+	font-weight: 100px;
+}
+.welcome{
+	text-align: center;
+	margin-top: 50px;
+	width: 1000px;
+	margin:auto;
+}
+
+#heading{
+	padding-top: 80px;
+	margin-top: 0px;
+}
+#info{
+	color: grey;
+}
+.grid{
+	width:900px;
+	margin:auto;
+	margin-top: 150px;
+	overflow: hidden;
+}
+
+.col1{
+	width: 30%;
+	float: left;
+	margin-right: 60px;
+}
+.col2{
+	width: 30%;
+	float: left;
+
+
+}
+.col3{
+	width: 30%;
+	float: right;
+
+}
+.grid p{
+	color: grey;
+}
+
+.third h1{
+	text-align: center;
+	font-size: 50px;
+	color: grey;
+	margin-top: 100px;
+}
+.third{
+	width: 1366px;
+	margin:auto;
+	font-size: 20px;
+	background-color: white;
+	overflow: hidden;
+
+}
+.photos{
+	width:1100px;
+	margin:auto;
+}
+.thailand{
+	background-image: url("images/thailand.jpg");
+	height:310px;
+	width:300px;
+	float: left;
+	background-repeat: no-repeat;
+	margin:30px;
+	filter: grayscale(80%);
+
+}
+.australia{
+	background-image: url("images/australia.jpg");
+	height:310px;
+	width:300px;
+	float: left;
+	background-repeat: no-repeat;
+	margin:30px;
+	filter: grayscale(80%);
+}
+.indonesia{
+	background-image: url("images/indonesia.jpg");
+	height:310px;
+	width:300px;
+	float: left;
+	background-repeat: no-repeat;
+	margin:30px;
+	filter: grayscale(80%);
+}
+.france{
+	background-image: url("images/france.jpg");
+	height:310px;
+	width:300px;
+	background-repeat: no-repeat;
+	float: left;
+	margin:30px;
+	filter: grayscale(80%);
+	
+}
+.malaysia{
+	background-image: url("images/malaysia.jpg");
+	height:310px;
+	width:300px;
+	background-repeat: no-repeat;
+	float: left;
+	margin:30px;
+	filter: grayscale(80%);
+}
+.uae{
+	background-image: url("images/uae.jpg");
+	height:310px;
+	width:300px;
+	background-repeat: no-repeat;
+	float: left;
+	margin:30px;
+	filter: grayscale(80%);
+}
+.photos a{
+	visibility: hidden;
+	margin-left: 100px;
+	color: white;
+	font-size: 30px;
+}
+.thailand:hover, .australia:hover, .indonesia:hover, .france:hover, .malaysia:hover, .uae:hover{
+	filter: grayscale(0%);
+}
+.thailand:hover a{
+	visibility: visible;
+	cursor: pointer;
+}
+.australia:hover a{
+	visibility: visible;
+	cursor: pointer;
+}
+.indonesia:hover a{
+	visibility: visible;
+	cursor: pointer;
+}
+.france:hover a{
+	visibility: visible;
+	cursor: pointer;
+}
+.malaysia:hover a{
+	visibility: visible;
+	cursor: pointer;
+}
+.uae:hover a{
+	visibility: visible;
+	cursor: pointer;
+}
+
+
+.fourth h1{
+	text-align: center;
+	font-size: 50px;
+	color: #4a4a4a;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+.fourth{
+	width: 1366px;
+	margin:auto;
+	font-size: 20px;
+	background-color: white;
+	overflow: hidden;
+
+}
+
+.detail{
+	width: 1000px;
+	margin:auto;
+}
+
+.istanbul{
+	float:left;
+	width: 70%;
+	box-shadow: 5px 10px 10px #888888;
+	width: 600px;
+}
+.istanbul img , .liberty img{
+	transition: 1s ease-in-out;
+}
+
+.istanbul:hover img, .liberty:hover img{
+	transform: scale(1.05);
+}
+#istanbul2{
+	margin-left: 42px;
+}
+.istanbul p{
+	color: #797979;
+}
+
+.text1{
+	width:43%;
+	float:left;
+}
+.liberty{
+   width:30%;
+   float: right;
+   block-size:630px;
+   box-shadow: 5px 10px 10px #888888;
+}
+
+.liberty h3{
+	margin-top: 10px;
+	margin-bottom: 3px;
+
+}
+.liberty p{
+	margin:10px;
+	color: #797979;
+}
+button a{
+	text-decoration: none;
+	color: white;
+}
+#read{
+	margin-left: 580px;
+	margin-top: 50px;
+
+}
+
+
+.fifth{
+	width: 1000px;
+	margin:auto;
+	background-color: white;
+	overflow: hidden;
+	
+}
+.fifth h1{
+	text-align: center;
+	font-size: 60px;
+	color: #4a4a4a;
+	margin-top: 100px;
+	margin-bottom: 30px;
+	color: #4a4a4a;
+}
+.fifth h2{
+	color: #4a4a4a;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.quote img{
+	height: 200px;
+	width: 220px;
+	border-radius: 20px;
+	margin-left: 100px;
+	margin-top: 40px;
+	float: left;
+	margin-right: 30px;
+}
+.quote{
+	overflow: hidden;
+	block-size:310px;
+	background-image: url("images/quotes.png");
+}
+
+.quote p{
+	font-size: 20px;
+	color:#797979;
+
+}
+#authorinfo{
+	padding-top: 60px;
+}
+#authorname{
+	padding-top: 20px;
+	padding-bottom: 0px;
+	margin-bottom: 0px;
+	color:orange;
+}
+#authorcity{
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.sixth{
+	block-size:100px;
+}
